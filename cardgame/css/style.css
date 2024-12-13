@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -39,7 +44,6 @@ button {
     color: white; /* White text */
     font-size: 16px; /* Increased font size */
     font-weight: bold; /* Bold font */
-    padding: 15px 30px; /* Larger padding for a more substantial button */
     border-radius: 30px; /* More rounded button edges */
     border: none; /* Remove default border */
     cursor: pointer; /* Pointer cursor on hover */
@@ -48,6 +52,10 @@ button {
 
 button:hover {
     transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.gomb{
+    padding: 15px 30px; /* Larger padding for a more substantial button */
 }
 
 .gomb:active {
