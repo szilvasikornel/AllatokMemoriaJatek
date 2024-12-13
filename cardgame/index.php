@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['card_index'])) {
 </head>
 <body>
     <h1>Veszélyeztetett állatok memóri játéka</h1>
-    <p>Párisítsd a képeket a hozzájuk tartozó nevekkel!</p>
+    <h4>Párosítsd a képeket a hozzájuk tartozó nevekkel!</h4>
     <form method="post">
         <div class="grid">
             <?php foreach ($_SESSION['cards'] as $index => $card): ?>
